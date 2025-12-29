@@ -1,0 +1,28 @@
+/* Pywal colors for wlogout */
+* {
+    background: #1d213f;
+    background-secondary: #725569;
+    background-hover: #995a6a;
+    foreground: #9b9da5;
+    accent: #8a7581;
+}
+
+window {
+    background-color: #1d213fee;
+}
+
+button {
+    background-color: #725569;
+    color: #9b9da5;
+    border: 2px solid #8a7581;
+}
+
+button:hover {
+    background-color: #995a6a;
+    border-color: #8a7581;
+}
+
+button:focus {
+    background-color: #8a7581;
+    color: #1d213f;
+}
